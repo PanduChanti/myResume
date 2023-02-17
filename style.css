@@ -19,6 +19,8 @@
 
 
     background: conic-gradient(from 225deg, rgba(5, 4, 5, 1.0), rgba(56, 55, 69, 1.0));
+    overflow: hidden;
+    background-size: cover;
 }
 
 
