@@ -37,6 +37,7 @@
     padding: 30px;
     border-radius: 30px;
     transition: 1.4s ease-in-out;
+    overflow: hidden;
 }
 
 hr {
