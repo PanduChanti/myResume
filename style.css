@@ -34,7 +34,7 @@
 
 #middle-container {
     background-color: #363638;
-    padding: 30px;
+    padding: 20px;
     border-radius: 30px;
     transition: 1.4s ease-in-out;
     overflow: hidden;
@@ -104,6 +104,7 @@ i:hover {
 
 #typing {
     color: red;
+
 }
 
 #lang {
