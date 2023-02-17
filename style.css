@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: rgba(0, 255, 255, 0.773); */
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* #back {
+    background-image: linear-gradient(to left bottom, #1f2020, #191a1a, #131314, #0b0b0b, #000000);
+} */
+
+
+#back {
+
+
+    background: conic-gradient(from 225deg, rgba(5, 4, 5, 1.0), rgba(56, 55, 69, 1.0));
+}
+
+
+#span {
+    color: red;
+}
+
+#bar {
+    margin-left: 10px;
+}
+
+#middle-container {
+    background-color: #363638;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 1.4s ease-in-out;
+}
+
+hr {
+    width: 120px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+#social-media {
+    padding: 10px;
+
+}
+
+i {
+    transition: 0.5s ease-in-out;
+}
+
+i:hover {
+    color: red;
+    transform: translateY(-4px);
+    font-size: 25px;
+
+}
+
+#name {
+    animation: myAnim 3s ease 0s infinite normal forwards;
+    transition: 0.3s ease-in-out;
+}
+
+/* #name:hover {
+    color: red;
+    font-size: 20px;
+} */
+
+@keyframes myAnim {
+    0% {
+        transform: scale(1);
+        color: red;
+    }
+
+    50% {
+        transform: scale(1.1);
+        /* color: red; */
+
+    }
+
+    100% {
+        transform: scale(1);
+        color: red;
+    }
+}
+
+#btn-id {
+    border: 2px solid skyblue;
+
+}
+
+#btn-id:hover {
+    background: transparent;
+    color: aqua;
+    border: 2px solid red;
+}
+
+#typing {
+    color: red;
+}
+
+#lang {
+    transition: 1.4s ease-in-outs;
+}
+
+
+#name12:hover {
+    color: aqua;
+}
